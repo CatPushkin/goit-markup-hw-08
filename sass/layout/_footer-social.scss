@@ -1,0 +1,9 @@
+.footer-content__social {
+  &.footer-content__link {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition);
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}

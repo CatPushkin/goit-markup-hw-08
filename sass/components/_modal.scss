@@ -1,0 +1,17 @@
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 580px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  background-color: #ffffff;
+}
+.modal-button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
