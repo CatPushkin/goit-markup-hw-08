@@ -1,13 +1,22 @@
 .reason-list {
-  display: flex;
-  margin-right: -30px;
   @extend %list;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
 }
 .reason-list__item {
-  margin-right: 30px;
-  flex-basis: calc((100% - 120px) / 4);
+  margin-bottom: 30px;
   &:last-child {
-    margin-right: 0;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 0;
   }
 }
 .reason-list__wrap {
@@ -27,6 +36,7 @@
 }
 
 .reason-list__title {
+  text-align: center;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
