@@ -103,36 +103,62 @@
       </div>
      </section>
 
-     <!-- <section class="project">
+     <section class="project">
       <div class="container">
        <h2 class="project__title">Чем мы занимаемся</h2>
        <ul class="project-list">
-         <li class="project-list__item"><img class="no-gap" src="./images/box/box1.jpg" alt="человек печатает на клавиатуре код" width="370" height="294">
+         <li class="project-list__item">
+           <picture>
+          <source srcset="
+            ./images/box/box1.jpg    1x,
+            ./images/box/box1-2x.jpg 2x " media="(min-width:1200px)" />
+          <img class="no-gap" src="./images/box/box1.jpg" alt="человек печатает на клавиатуре код" width="370" height="294" />
+        </picture>
+        
           <div class="project-list__card">
           <h3 class="project-list__text">Десктопные приложения</h3>
           </div>
         </li>
-         <li class="project-list__item"><img class="no-gap" src="./images/box/box2.jpg" alt="разработка дизайна для мобильного приложения" width="370" height="294">
+         <li class="project-list__item"><picture>
+          <source srcset="
+                    ./images/box/box2.jpg    1x,
+                    ./images/box/box2-2x.jpg 2x " media="(min-width:1200px)" />
+            <img class="no-gap" src="./images/box/box2.jpg" alt="человек печатает на клавиатуре код" width="370" height="294" />
+        </picture>
           <div class="project-list__card">
           <h3 class="project-list__text">Мобильные приложения</h3>
         </div>
       </li>
-         <li class="project-list__item"><img class="no-gap" src="./images/box/box3.jpg" alt="на планшете указан цветовой градиент" width="370" height="294">
+         <li class="project-list__item"><picture>
+          <source srcset="
+                    ./images/box/box3.jpg    1x,
+                    ./images/box/box3-2x.jpg 2x " media="(min-width:1200px)" />
+           <img class="no-gap" src="./images/box/box3.jpg" alt="человек печатает на клавиатуре код" width="370" height="294" />
+        </picture>
         <div class="project-list__card">
           <h3 class="project-list__text">Дизайнерские решения</h3>
         </div>
         </li>
        </ul>
       </div>
-     </section> -->
+     </section>
 
      <!-- комрады -->
 
-     <!-- <section class="team">
+     <section class="team">
        <div class="container">
        <h2 class="team__title">Наша команда</h2>
        <ul class="team-list team-list--position">
-         <li class="team-list__item"> <img class="no-gap" src="./images/comrad/pers1.jpg" alt="продакт менеджер" width="270" height="260">
+         <li class="team-list__item">
+           <picture>
+          <source srcset="
+           ./images/comrad/pers1-desk.jpg 1x,
+           ./images/comrad/pers1-desk-2x.jpg 2x" media="(min-width:1200px)" />
+          <source srcset="
+         ./images/comrad/pers1-tab.jpg 1x,
+         ./images/comrad/pers1-tab-2x.jpg 2x " media="(min-width:768px)" />
+          <img class="no-gap" src="./images/comrad/pers1.jpg" alt="продакт дизайнер"/>
+        </picture>
           <div class="member-list">
           <h3 class="member-list__title">Игорь Демьяненко</h3>
           <p class="member-list__position" lang="en">Product Designer</p>
@@ -168,8 +194,17 @@
           </ul>
           </div>
          </li>
-        <li class="team-list__item"> <img class="no-gap" src="./images/comrad/pers2.jpg" alt="фронтэнд разработчик" width="270" height="260">
-          <div class="member-list">
+        <li class="team-list__item">
+          <picture>
+          <source srcset="
+                   ./images/comrad/pers2-desk.jpg 1x,
+                   ./images/comrad/pers2-desk-2x.jpg 2x" media="(min-width:1200px)" />
+          <source srcset="
+                 ./images/comrad/pers2-tab.jpg 1x,
+                 ./images/comrad/pers2-tab-2x.jpg 2x " media="(min-width:768px)" />
+          <img class="no-gap" src="./images/comrad/pers2.jpg" alt="фронтэнд разработчик" />
+        </picture>
+        <div class="member-list">
           <h3 class="member-list__title">Ольга Репина</h3>
           <p class="member-list__position" lang="en">Frontend Developer</p>
           <ul class="social-list">
@@ -204,7 +239,16 @@
           </ul>
             </div>
         </li>
-        <li class="team-list__item"> <img class="no-gap" src="./images/comrad/pers3.jpg" alt="маркетолог" width="270" height="260">
+        <li class="team-list__item"> 
+          <picture>
+            <source srcset="
+                     ./images/comrad/pers3-desk.jpg 1x,
+                     ./images/comrad/pers3-desk-2x.jpg 2x" media="(min-width:1200px)" />
+            <source srcset="
+                   ./images/comrad/pers3-tab.jpg 1x,
+                   ./images/comrad/pers3-tab-2x.jpg 2x " media="(min-width:768px)" />
+            <img class="no-gap" src="./images/comrad/pers3.jpg" alt="маркетолог" />
+          </picture>
           <div class="member-list">
           <h3 class="member-list__title">Николай Тарасов</h3>
           <p class="member-list__position" lang="en">Marketing</p>
@@ -240,7 +284,16 @@
           </ul>
             </div>
         </li>
-        <li class="team-list__item"> <img class="no-gap" src="./images/comrad/pers4.jpg" alt="веб дизайнер" width="270" height="260">
+        <li class="team-list__item"> 
+          <picture>
+            <source srcset="
+                     ./images/comrad/pers4-desk.jpg 1x,
+                     ./images/comrad/pers4-desk-2x.jpg 2x" media="(min-width:1200px)" />
+            <source srcset="
+                   ./images/comrad/pers4-tab.jpg 1x,
+                   ./images/comrad/pers4-tab-2x.jpg 2x " media="(min-width:768px)" />
+            <img class="no-gap" src="./images/comrad/pers4.jpg" alt="дизайнер" />
+          </picture>
           <div class="member-list">
           <h3 class="member-list__title">Михаил Ермаков</h3>
           <p class="member-list__position" lang="en">UI Designer</p>
@@ -278,9 +331,9 @@
         </li>
       </ul>
       </div>
-     </section> -->
+     </section>
 
-     <!-- <section class="section-clients">
+     <section class="section-clients">
        <div class="container">
          <h2 class="team__title">Постоянные клиенты</h2>
          <ul class="clients-list">
@@ -330,14 +383,14 @@
 
        </div>
 
-     </section> -->
+     </section>
 
     
 
-     <!-- <footer class="footer"> -->
-       <!-- <div class="container">
-         <div class="footer-content">
-           <div class="footer-content__contact">
+     <footer class="footer">
+       <div class="container footer-content">
+         <!-- <div class="footer-container"> -->
+          <div class="footer-content__contact">
       <a href="./" class="logo"><span class="logo logo--accent">Web</span><span class="logo logo--white">Studio</span></a>
       <address class="footer-address">
         <ul class="footer-address__list">
@@ -379,17 +432,17 @@
           </a>
         </li>
       </ul>
-</div> -->
-      <!-- <form action="#" class="form">
+</div>
+<!-- </div> -->
+      <form action="#" class="form">
         <b class="form__make-do">Подпишитесь на рассылку</b>
         <div class="form__field">
           <input class="form__input" type="email" name="email" placeholder="E-mail">
           <button class="btn button-form" type="submit">Подписаться</button>
         </div>
       </form>
-      </div>
-      </div> -->
-     <!-- </footer> -->
+      </div> 
+     </footer>
 
 
 

@@ -2,13 +2,27 @@
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 .footer-content {
-  display: flex;
-  align-items: baseline;
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
 }
+
 .footer-content__contact {
-  margin-right: 82px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 82px;
+    margin-bottom: 0;
+  }
 }
 
 .footer-address__list {
@@ -40,7 +54,11 @@
 }
 
 .footer-content__form {
-  margin-right: 93px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-right: 93px;
+  }
 }
 .footer-content__title {
   font-size: 14px;
