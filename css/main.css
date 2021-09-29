@@ -115,9 +115,7 @@ button {
 }
 
 .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .nav-list__item:not(:last-child) {
@@ -173,9 +171,7 @@ button {
 }
 
 .header-contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .header-contact--left {

@@ -2,7 +2,8 @@
   display: flex;
 }
 .nav-list {
-  display: flex;
+  display: none;
+  // display: flex;
   @extend %list;
 }
 .nav-list__item:not(:last-child) {

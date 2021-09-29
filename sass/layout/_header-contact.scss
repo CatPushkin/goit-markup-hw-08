@@ -1,5 +1,6 @@
 .header-contact {
-  display: flex;
+  display: none;
+  // display: flex;
   @extend %list;
   &--left {
     margin-left: auto;
