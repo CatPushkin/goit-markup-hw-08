@@ -35,27 +35,27 @@
       <ul class="header-contact header-contact--left">
         <li class="header-contact__item">
           <a class="header-contact__link"  href="mailto:info@devstudio.com">
-            <svg class="header-contact__icon" width="16" height="12">
+            <svg class="mail-icon">
             <use href="./images/icons.svg#icon-envelope"></use>
           </svg>info@devstudio.com</a>
         </li>
         <li class="header-contact__item">
           <a class="header-contact__link" href="tel:+380961111111">
-            <svg class="header-contact__icon" width="10" height="16">
+            <svg class="tel-icon" >
             <use href="./images/icons.svg#icon-smartphone"></use>
           </svg>+38 096 111 11 11</a>
         </li>
       </ul>
       </div>
       <div class="menu">
-        <button type="submit" class="btn-menu">
+        <button type="submit"  class="open-menu" data-menu-open>
           <svg class="menu-icon" width="24" height="16">
           <use href="./images/icons.svg#icon-menu_bar"></use>
         </svg>
       </button>
-      <div class="menu-bar backdrop">
-        <button class="btn-close-menu" type="button" data-modal-close>
-          <svg class="close-menu-icon" width="11" height="11">
+      <div class="menu-bar backdrop is-hidden" data-menu>
+        <button class="close-menu" type="button" data-menu-close>
+          <svg class="close-menu-icon" width="18.67" height="18.67">
             <use href="./images/icons.svg#icon-close-menu"></use>
           </svg>
         </button>
@@ -106,7 +106,7 @@
 
      <section class="hero hero--position">
        <div class="container ">
-       <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+       <h1 class="hero__title">Эффективные решения<br>для вашего бизнеса</h1>
       <button class="btn" type="button" data-modal-open>Заказать услугу</button>
       </div>
      </section>
@@ -553,5 +553,6 @@
 
  </main>
 <script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 </html>
