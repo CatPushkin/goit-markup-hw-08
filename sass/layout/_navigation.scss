@@ -61,6 +61,9 @@
     flex-wrap: unset;
     justify-content: center;
   }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio-nav-item:not(:last-child) {
